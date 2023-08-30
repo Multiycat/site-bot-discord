@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiycat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+        }
+        .ajout {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+            font-family: Arial, sans-serif; /* Ajoute cette ligne pour définir la police */
+        }
+     /* Ajoute ces styles pour le bouton */
+
+    #interactionButton {
+        background-color: #013080; /* Couleur bleue */
+        color: white;
+        font-size: 18px; /* Taille de police plus grande */
+        padding: 10px 20px; /* Espacement intérieur du bouton */
+        border: none; /* Supprime la bordure par défaut */
+        cursor: pointer; /* Changement de curseur au survol */
+    }
+
+    #interactionButton:hover {
+        background-color: #7300f6; /* Couleur bleue légèrement plus sombre au survol */
+    }
+
+    #ajouterbot {
+        background-color: #b39907; /* Couleur bleue */
+        color: rgb(255, 255, 255);
+        font-size: 18px; /* Taille de police plus grande */
+        padding: 10px 25px; /* Espacement intérieur du bouton */
+        border: none; /* Supprime la bordure par défaut */
+        cursor: pointer; /* Changement de curseur au survol */
+    }
+
+    #ajouterbot:hover {
+        background-color: #514d02; /* Couleur bleue légèrement plus sombre au survol */
+    }
+    
+    
+    body {
+        background-image: url("./photo/My project-1 copie.png");
+        background-size: cover; /* Ajuste la taille de l'image pour couvrir l'ensemble de l'élément */
+        background-position: center -1; /* Centre l'image horizontalement et verticalement */
+    }
+</style>
+<head>
+<body>
+    
+    <div class="container">
+        <h2>Tu veux ajouter mon bot discord suis ses étapes</h2>  
+        <div class="container">
+            <h2>Pour ajouter le bot discord il te faux</h2>
+            
+            <div class="ajout">
+                <h2>- Un serveur de 50 membre</h2>
+                <h2>- activer la fonction communauter</h2>
+                <h2>- Ne pas avoir de sinalement sur d'autre serveur</h2>
+            </div>
+            <h2>Si tout c'est condition son bonne click sur le bouton</h2>
+            <button id="ajouterbot">Ajouter le bot discord</button>
+
+        </div> 
+        <button id="interactionButton">Retour</button>
+    </div>
+
+    <script>
+        const interactionButton = document.getElementById("interactionButton");
+    
+        interactionButton.addEventListener("click", () => {
+            window.location.href = "./main.html"; // Utilise l'URL complète avec "https://"
+        });
+    </script>
+
+<script>
+    const ajouterbot = document.getElementById("ajouterbot");
+
+    ajouterbot.addEventListener("click", () => {
+        window.location.href = "./main.html"; // Utilise l'URL complète avec "https://"
+    });
+</script>
+</body>
+
+</html>

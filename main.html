@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiycat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+        }
+        .box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+            font-family: Arial, sans-serif; /* Ajoute cette ligne pour définir la police */
+        }
+     /* Ajoute ces styles pour le bouton */
+     #interactionButton {
+        background-color: #3c0180; /* Couleur bleue */
+        color: white;
+        font-size: 18px; /* Taille de police plus grande */
+        padding: 10px 20px; /* Espacement intérieur du bouton */
+        border: none; /* Supprime la bordure par défaut */
+        cursor: pointer; /* Changement de curseur au survol */
+    }
+
+    #interactionButton:hover {
+        background-color: #7300f6; /* Couleur bleue légèrement plus sombre au survol */
+    }
+    
+    body {
+        background-image: url("./photo/My project-1 copie.png");
+        background-size: cover; /* Ajuste la taille de l'image pour couvrir l'ensemble de l'élément */
+        background-position: center -1; /* Centre l'image horizontalement et verticalement */
+    }
+</style>
+<head>
+<body>
+    
+    <div class="container">
+        <h2>Bienvenue sur Multiycat bot discord !</h2>
+        <div class="box">
+            <p>Ici tu vas pouvoir ajouter mon bot Discord</p>
+
+            <div class="box">
+                <h3>Nouvelle Section</h3>
+                <p>Ceci est une nouvelle boîte que tu as ajoutée.</p>
+                <button id="interactionButton">Clique ici</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <script>
+        const interactionButton = document.getElementById("interactionButton");
+    
+        interactionButton.addEventListener("click", () => {
+            window.location.href = "./page ajout.html"; // Utilise l'URL complète avec "https://"
+        });
+    </script>
+    
+</body>
+
+</html>
